@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panier d'Achat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cart">
+    <!-- Article 1 -->
+    <div class="cart-item">
+      <h3 class="item-title">Article 1</h3>
+      <p class="item-price">10.00</p>
+      <div class="item-controls">
+        <button class="minus-quantity">-</button>
+        <span class="item-quantity">1</span>
+        <button class="add-quantity">+</button>
+      </div>
+      <button class="remove-item">Supprimer</button>
+      <button class="like-item">❤</button>
+    </div>
+
+    <!-- Article 2 -->
+    <div class="cart-item">
+      <h3 class="item-title">Article 2</h3>
+      <p class="item-price">20.00</p>
+      <div class="item-controls">
+        <button class="minus-quantity">-</button>
+        <span class="item-quantity">1</span>
+        <button class="add-quantity">+</button>
+      </div>
+      <button class="remove-item">Supprimer</button>
+      <button class="like-item">❤</button>
+    </div>
+
+    <!-- Article 3 -->
+    <div class="cart-item">
+      <h3 class="item-title">Article 3</h3>
+      <p class="item-price">30.00</p>
+      <div class="item-controls">
+        <button class="minus-quantity">-</button>
+        <span class="item-quantity">1</span>
+        <button class="add-quantity">+</button>
+      </div>
+      <button class="remove-item">Supprimer</button>
+      <button class="like-item">❤</button>
+    </div>
+
+    <!-- Prix total -->
+    <div class="cart-total">
+      <h3>Total: $<span id="total-price">0.00</span></h3>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
